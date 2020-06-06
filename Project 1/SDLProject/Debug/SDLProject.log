@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\mandy\Documents\CS-3113-GitHub\Project 1\SDLProject\main.cpp(24,22): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\mandy\Documents\CS-3113-GitHub\Project 1\SDLProject\main.cpp(121,24): warning C4305: '=': truncation from 'double' to 'float'
-  SDLProject.vcxproj -> C:\Users\mandy\Documents\CS-3113-GitHub\Project 1\SDLProject\Debug\SDLProject.exe
