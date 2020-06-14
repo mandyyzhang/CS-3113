@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\mandy\Documents\CS-3113-GitHub\Project 2\SDLProject\main.cpp(96,13): warning C4060: switch statement contains no 'case' or 'default' labels
+  SDLProject.vcxproj -> C:\Users\mandy\Documents\CS-3113-GitHub\Project 2\SDLProject\Debug\SDLProject.exe
