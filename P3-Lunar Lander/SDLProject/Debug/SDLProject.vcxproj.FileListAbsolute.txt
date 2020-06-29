@@ -1,0 +1,4 @@
+C:\Users\mandy\Documents\CS-3113-GitHub\Project 3\SDLProject\Debug\SDLProject.exe
+C:\Users\mandy\Documents\CS-3113-GitHub\Project 3\SDLProject\Debug\SDLProject.pdb
+C:\Users\mandy\Documents\CS-3113-GitHub\P3-Lunar Lander\SDLProject\Debug\SDLProject.exe
+C:\Users\mandy\Documents\CS-3113-GitHub\P3-Lunar Lander\SDLProject\Debug\SDLProject.pdb
