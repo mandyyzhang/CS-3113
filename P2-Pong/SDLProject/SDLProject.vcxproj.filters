@@ -21,10 +21,21 @@
     <ClCompile Include="ShaderProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WithSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ShaderProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bounce.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="dooblydoo.mp3">
+      <Filter>Source Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>

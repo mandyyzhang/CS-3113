@@ -1,2 +1,4 @@
 C:\Users\mandy\Documents\CS-3113-GitHub\Project 2\SDLProject\Debug\SDLProject.exe
 C:\Users\mandy\Documents\CS-3113-GitHub\Project 2\SDLProject\Debug\SDLProject.pdb
+C:\Users\mandy\Documents\CS-3113-GitHub\P2-Pong\SDLProject\Debug\SDLProject.exe
+C:\Users\mandy\Documents\CS-3113-GitHub\P2-Pong\SDLProject\Debug\SDLProject.pdb

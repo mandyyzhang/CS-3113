@@ -1,0 +1,2 @@
+C:/Users/mandy/Documents/CS-3113-GitHub/P4-Rise of the AI/SDLProject/glm/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/mandy/Documents/CS-3113-GitHub/P4-Rise of the AI/SDLProject/glm/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
