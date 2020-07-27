@@ -24,13 +24,7 @@
     <ClCompile Include="Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Map.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Util.cpp">
+    <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Level1.cpp">
@@ -42,7 +36,13 @@
     <ClCompile Include="Level3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,13 +53,7 @@
     <ClInclude Include="Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Map.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util.h">
+    <ClInclude Include="Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Level1.h">
@@ -71,27 +65,39 @@
     <ClInclude Include="Level3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="george_0.png">
-      <Filter>Source Files</Filter>
-    </Image>
     <Image Include="tileset.png">
       <Filter>Source Files</Filter>
     </Image>
-    <Image Include="slime.png">
+    <Image Include="george_0.png">
       <Filter>Source Files</Filter>
     </Image>
     <Image Include="font1.png">
       <Filter>Source Files</Filter>
     </Image>
+    <Image Include="slime.png">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
+    <Media Include="success.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="bounce.wav">
+      <Filter>Source Files</Filter>
+    </Media>
     <Media Include="dooblydoo.mp3">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </Media>
   </ItemGroup>
 </Project>

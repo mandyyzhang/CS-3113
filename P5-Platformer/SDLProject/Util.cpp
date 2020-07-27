@@ -4,12 +4,11 @@
 #include "stb_image.h"
 
 //=================================================================================================
-
 GLuint Util::LoadTexture(const char* filePath) {
 	int w, h, n;
 	unsigned char* image = stbi_load(filePath, &w, &h, &n, STBI_rgb_alpha);
 
-	if (image == NULL) {
+	if (image == nullptr) {
 		std::cout << "Unable to load image. Make sure the path is correct\n";
 		assert(false);
 	}
@@ -46,13 +45,14 @@ void Util::DrawText(ShaderProgram* program, GLuint fontTexture, std::string text
 		float offset = (size + spacing) * i;
 
 		texCoords.insert(texCoords.end(), {
-		u, v,
-		u, v + height,
-		u + width, v,
-		u + width, v + height,
-		u + width, v,
-		u, v + height,
-			});
+			u, v,
+			u, v + height,
+			u + width, v,
+			u + width, v + height,
+			u + width, v,
+			u, v + height,
+		});
+
 		vertices.insert(vertices.end(), {
 			 offset + (-0.5f * size), 0.5f * size,
 			 offset + (-0.5f * size), -0.5f * size,
@@ -60,7 +60,7 @@ void Util::DrawText(ShaderProgram* program, GLuint fontTexture, std::string text
 			 offset + (0.5f * size), -0.5f * size,
 			 offset + (0.5f * size), 0.5f * size,
 			 offset + (-0.5f * size), -0.5f * size,
-			});
+		});
 	}
 	glm::mat4 modelMatrix = glm::mat4(1.0f);
 	modelMatrix = glm::translate(modelMatrix, position);

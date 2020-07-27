@@ -1,4 +1,5 @@
 #include "Scene.h"
+
 class Level1 : public Scene {
 
 public:
@@ -6,4 +7,3 @@ public:
 	void Update(float deltaTime) override;
 	void Render(ShaderProgram* program) override;
 };
-

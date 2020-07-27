@@ -63,7 +63,6 @@ void Map::Build()
 	top_bound = 0 + (tile_size / 2);
 	bottom_bound = -(tile_size * height) + (tile_size / 2);
 }
-
 //=================================================================================================
 
 void Map::Render(ShaderProgram* program)
@@ -85,6 +84,7 @@ void Map::Render(ShaderProgram* program)
 	glDisableVertexAttribArray(program->positionAttribute);
 	glDisableVertexAttribArray(program->texCoordAttribute);
 }
+
 
 //=================================================================================================
 

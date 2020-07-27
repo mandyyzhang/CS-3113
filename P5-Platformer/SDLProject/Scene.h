@@ -18,15 +18,19 @@ struct GameState {
 	Map* map;
 	Entity* player;
 	Entity* enemies;
-	Entity* font;
 	int nextScene;
 };
 
-
 class Scene {
 public:
+
 	GameState state;
 	virtual void Initialize() = 0;
 	virtual void Update(float deltaTime) = 0;
 	virtual void Render(ShaderProgram* program) = 0;
+
+	bool winGame = false;
+	bool gameOver = false;
+	int enemyNum;
+
 };

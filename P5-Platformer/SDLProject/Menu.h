@@ -7,4 +7,3 @@ public:
 	void Update(float deltaTime) override;
 	void Render(ShaderProgram* program) override;
 };
-
